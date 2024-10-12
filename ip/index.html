@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fish SMP</title>
+    <link rel="stylesheet" href="/styles.css">
+
+    <script>
+        function copy(ip) {
+            navigator.clipboard.writeText(toString(ip)).then(() => {
+                alert("Copied to clipboard")
+            },() => {
+                alert("Error while copying to clipboard")
+            });
+        }
+    </script>
+
+</head>
+<body>
+    <a class="ip" onclick="copy('authors-liberia.gl.at.ply.gg:59813')">authors-liberia.gl.at.ply.gg:59813</a>
+</body>
+</html>
